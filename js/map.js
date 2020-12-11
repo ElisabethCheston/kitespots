@@ -61,5 +61,11 @@ function initialize() {
             {coords: {lat: 61.2406976, lng: 17.2613011 },  content:'ORSUNDET', windDirection: 'S/SW'},        // Orsundet SSW NNE//
             {coords: {lat: 61.2352256, lng: 17.2766953 },  content:'ENSKÄR', windDirection: 'S/SE'},          // Enskär SSE //
             ];
+            
+                //  Loop through markers
+        for (var i = 0; i < markers.length;i++){
+        //  Add marker      
+            addMarker(markers[i]);
+        }
 
 }
