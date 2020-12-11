@@ -1,0 +1,22 @@
+Mongol created free map account connected to google maps
+Sign up with Postman for handeling APIs L14H SmerkOne
+create a json file : npm init -y
+
+http://localhost:5000/api/v1/stores
+
+(npm.com) CHECK THIS OUT 
+npm init -y (run only once in begginging of project, create pagage.json file)
+
+https://www.youtube.com/watch?v=hl3IbJuzg_s
+
+
+SVG (Scalable Vector Graphics) graphics for legend.
+    Vectoris scalable since they use coordinates.
+    SVG is an XML based format that works well with js.
+
+    Leaflet:
+    1.  Add these in the head
+            <link rel="stylesheet" href="/path/to/leaflet.css" />
+            <script src="/path/to/leaflet.js"></script>
+    2.  npm install leaflet (fetch package manager)
+    3.  Fix the path on the links.
