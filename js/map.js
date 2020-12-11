@@ -60,7 +60,42 @@ function initialize() {
             {coords: {lat: 61.2468373, lng: 17.1947394 },  content:'STENÖ HAVSBAD', windDirection: 'S/SE'},   // Stenö Havsbad SSE //
             {coords: {lat: 61.2406976, lng: 17.2613011 },  content:'ORSUNDET', windDirection: 'S/SW'},        // Orsundet SSW NNE//
             {coords: {lat: 61.2352256, lng: 17.2766953 },  content:'ENSKÄR', windDirection: 'S/SE'},          // Enskär SSE //
-            ];
+        //Gävle//
+            {coords: {lat: 60.7524944, lng: 17.3534575 },  content:'UTVALNÄS UDDE', windDirection: 'E/SE'},     // Snäcken SSE//
+            {coords: {lat: 60.7319714, lng: 17.3182666 },  content:'HOLMUDDEN', windDirection: 'E'},     // Kråknäs SSW//
+            {coords: {lat: 60.7154601, lng: 17.2624873 },  content:'BRÄDVIKEN', windDirection: 'S/SE'},   // Stenö Havsbad SSE //
+            {coords: {lat: 60.6463792, lng: 17.4264364 },  content:'KLÄCKEN', windDirection: 'N'},        // Orsundet SSW NNE//
+            {coords: {lat: 60.6414841, lng: 17.4734790 },  content:'RULLSAND', windDirection: 'N/NE'},          // Enskär SSE //
+        //Åland//
+            {coords: {lat: 60.2174413, lng: 19.5438690 },  content:'SANDMO', windDirection: 'W/SW'},     // Snäcken SSE//
+            {coords: {lat: 60.1539131, lng: 19.5973999 },  content:'HOLMUDDEN', windDirection: 'E'},     // Kråknäs SSW//
+            {coords: {lat: 60.1105197, lng: 19.9479629 },  content:'SKJULET', windDirection: 'S/SE'},   // Stenö Havsbad SSE //
+            {coords: {lat: 60.0894388, lng: 20.1402891 },  content:'LUMPARN', windDirection: 'N/NW/NE'},        // Orsundet SSW NNE//
+            {coords: {lat: 60.2073874, lng: 20.2499844 },  content:'PRÄSTÖ', windDirection: 'S/SW'},          // Enskär SSE //
+        //Stockholm North//
+            {coords: {lat: 59.9054138, lng: 18.9926251 },  content:'SALNÖ', windDirection: 'N/NE'},     // Snäcken SSE//
+            {coords: {lat: 59.7171248, lng: 19.0650978 },  content:'KAPELLSKÄR', windDirection: 'S/SE'},     // Kråknäs SSW//
+            {coords: {lat: 59.6283077, lng: 18.9845648 },  content:'BROMSKÄR', windDirection: 'E/NE'},   // Stenö Havsbad SSE //
+            {coords: {lat: 59.3769370, lng: 18.2315604 },  content:'FÅGELÖUDDEN', windDirection: 'N/NW'},        // Orsundet SSW NNE//
+            {coords: {lat: 59.4258797, lng: 18.1050031 },  content:'NÄSÄNG S', windDirection: 'S/SE'}, 
+            {coords: {lat: 59.4421925, lng: 18.1312813 },  content:'HÄGERNÄSBADET', windDirection: 'S/SE'},     // Snäcken SSE//
+            {coords: {lat: 59.3897778, lng: 18.1116807 },  content:'STICKLINGE', windDirection: 'N/NE'},     // Kråknäs SSW//
+            // Stockholm South//
+            {coords: {lat: 59.2871791, lng: 17.8915723 },  content:'SÄTRASTRAND', windDirection: 'W'},   // Stenö Havsbad SSE //
+            {coords: {lat: 59.2204036, lng: 18.5375894 },  content:'BJÖRKVIK', windDirection: 'S/SE'},        // Orsundet SSW NNE//
+            {coords: {lat: 59.2175396, lng: 18.5288400 },  content:'LILLA SAND', windDirection: 'S/SE'}, 
+            {coords: {lat: 59.2212215, lng: 18.5501964 },  content:'TORPESAND', windDirection: 'S/SEW'},   // Stenö Havsbad SSE //
+            {coords: {lat: 59.2224023, lng: 18.4801033 },  content:'GRÖNSKAN', windDirection: 'S/SE'},        // Orsundet SSW NNE//
+            {coords: {lat: 59.2283717, lng: 18.3567438 },  content:'TRINNTORP', windDirection: 'N/NE'}, 
+            {coords: {lat: 59.1964566, lng: 18.4173426 },  content:'SANDHOLMEN', windDirection: 'S/SE'}, 
+            {coords: {lat: 59.2690874, lng: 18.2649998 },  content:'ERSTAVIK', windDirection: 'SE'},   // Stenö Havsbad SSE //
+            {coords: {lat: 59.3145342, lng: 18.3051525 },  content:'MJÖLKUDDEN', windDirection: 'SE'},        // Orsundet SSW NNE//
+            {coords: {lat: 59.1373975, lng: 18.3978376 },  content:'DALARÖ', windDirection: 'S/SW'}, 
+            {coords: {lat: 59.0972660, lng: 18.3228420 },  content:'GÅLÖ', windDirection: 'SE'},   // Stenö Havsbad SSE //
+            {coords: {lat: 58.8043955, lng: 17.7977476 },  content:'ÖRUDDEN N', windDirection: 'W/NW'},        // Orsundet SSW NNE//
+            {coords: {lat: 58.7966607, lng: 17.7912915 },  content:'ÖRUDDEN V', windDirection: 'S/SW'}, 
+            {coords: {lat: 58.7988784, lng: 17.8109458 },  content:'ÖRUDDEN S', windDirection: 'S/SW'},
+    ];
 
                 //  Loop through markers
         for (var i = 0; i < markers.length;i++){
